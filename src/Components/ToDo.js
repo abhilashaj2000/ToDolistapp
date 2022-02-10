@@ -144,12 +144,12 @@ const TodoList=styled.ul`
    
 `;
 const Listitem=styled.li`
-display:flex;
-align-items:center;
-justify-content:space-between;
-margin-bottom:20px; 
-list-style:none;
-`; 
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:20px; 
+    list-style:none;
+    `; 
 const Leftcontainer=styled.div`
     display:flex;
     align-items:center;
@@ -201,14 +201,14 @@ const NewTodoform=styled.form`
     }
 `;
 const FormInput=styled.input`
-display:block;
-width:100%;
-outline:none;
-border:1px solid #c6c6c6;
-border-right:none;
-padding:0 10px 0 35px;
-font-size:22px;
-`;
+    display:block;
+    width:100%;
+    outline:none;
+    border:1px solid #c6c6c6;
+    border-right:none;
+    padding:0 10px 0 35px;
+    font-size:22px;
+    `;
 const FormSubmitButton=styled.button`
     padding:15px 25px;
     white-space:nowrap;
@@ -229,7 +229,7 @@ const Checkcontainercomplete= styled(Checkcontainer)`
     border-color:#06c692;
 `;
 const ItemContentcompleted= styled(ItemContent)`
-color:#06c692`;
+    color:#06c692`;
 const Tickimage =styled.img`
 
 `;
